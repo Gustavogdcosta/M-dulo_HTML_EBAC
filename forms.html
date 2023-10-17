@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form>
+        <input type="text" placeholder="Digite seu nome" /> <br /><br />
+        <label for="email"> Digite seu e-mail </label>
+        <input id="email" type="email" /> <br /> <br />
+        <input type="tel" placeholder="Digite seu Telefone" /> <br /><br />
+        <input type="number" max="10" min="0" step="2" /> <br /><br />
+        <input type="color" /> <br /><br />
+        <input type="file" /> <br /><br />
+        <input id="checkbox-termos" type="checkbox" /> <label for="checkbox-termos">Aceito os termos</label> <br /><br />
+        <p>
+            <h3> Qual a sua cor favorita?</h3>
+            <input type="radio" name="corfavorita" id="cor-vermelho" /> <label for="cor-vermelho">Vermelho</label>
+            <input type="radio" name="corfavorita" id="cor-verde" /> <label for="cor-verde">verde</label>
+            <input type="radio" name="corfavorita" id="cor-azul" /> <label for="cor-azul">azul</label>
+        </p>
+        <br />
+        <h3>Qual o seu filme favorito?</h3>
+        <select multiple>
+            <option>Filme terror</option>
+            <option>Filme ação</option>
+            <option>Filme Drama</option>
+        </select>
+        <br />
+        <textarea placeholder="Nos de a sua opinião"></textarea>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button>
+    </form>
+</body>
+</html>
